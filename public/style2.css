@@ -1,0 +1,163 @@
+/* small screen */
+
+    @media only screen and (max-width: 650px){
+
+    #header{
+        background-image: url(images/phoneimg_11zon.jpg);
+        
+        
+    }
+    .logo{
+        width: 150px;
+        padding: 0px;
+    
+        margin-top: 20px;
+    }
+    .header-text{
+        font-size: 22px;
+        margin-top: 50px;
+      
+    }
+    .header-text span{
+        color: rgb(246, 255, 0);
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+   nav .fas{
+        display: block;
+        font-size: 20px;
+    
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        
+        width: 200px;
+        height: 100vh;
+        right: -200px;
+        background: lightcoral;
+        padding-top: 50px;
+        z-index: 2;
+       
+    }
+   
+    nav ul li{
+        display: block;
+        margin: 25px;
+        
+    }
+    nav ul .fas{
+        position:absolute;
+        top: 25px;
+       left: 25px;
+       cursor: pointer;
+    } 
+
+   .uii{
+    margin-top: 50px;
+   }
+    
+
+    .layer p{
+        font-size: small;
+      
+       padding-right: 50%;
+       
+      
+    }
+    .layer h2{
+        font-size: smaller;
+      
+       padding-right: 50%;
+     
+      
+    }
+    .layer.aa h2{
+        padding-bottom: 5px;
+    }
+
+    .layer:hover{
+       display: inline-block;
+        padding-top: 70%;
+        justify-content: center;
+        align-items: start;
+        
+    }
+    .layer a:hover{
+        padding-left: 0px;
+    }
+    .layer a{
+        display: none;
+        font-size: small;
+    
+    }
+
+    .layer p a{
+        display: inline-block;
+        padding-bottom: 20px;
+        line-height: 60px;
+        height: 30px;
+        width: 30px;
+       text-align: center;
+       align-items: center;
+       line-height: 30px;
+       
+    }
+
+   
+    .web p{
+  font-size: medium;
+    
+       
+    
+    }
+    
+    .problem p{
+       font-size: medium;
+    
+        
+    }
+    
+    .code p{
+    
+        font-size: medium;
+    
+    } 
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+
+    .contact-right{
+        margin-top: 20px;
+    }
+    .contact-right form button{
+
+        margin-left: 40%;
+    }
+
+    .c1 ,.c2{
+        flex-basis: 100%;
+    }
+    .c2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .tab-links{
+        font-size: 10px;
+        margin-right:20px ;
+       
+    }
+    
+    
+    
+
+   
+
+
+     
+    }
+    
